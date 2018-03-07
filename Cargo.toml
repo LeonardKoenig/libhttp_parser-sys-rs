@@ -1,0 +1,15 @@
+[package]
+name = "libhttp_parser-sys"
+version = "0.1.0"
+authors = ["Leonard König <leonard.r.koenig@googlemail.com>"]
+links = "http_parser"
+build = "build.rs"
+repository = "https://github.com/LeonardKoenig/libhttp_parser-sys-rs"
+license = "MIT"
+description = "Bindings to the system http-parser library"
+categories = ["external-ffi-bindings"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "*"
